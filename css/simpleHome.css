@@ -1,0 +1,196 @@
+@import url(http://fonts.googleapis.com/css?family=Leckerli+One|Vast+Shadow|Arvo|Oxygen|Miltonian|Source+Sans+Pro|Miltonian+Tattoo);
+
+
+body {
+  background-image: url(http://www.porkbeinspired.com/resources/images/212375.jpg);
+
+}
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.row {
+  padding: 3%
+}
+
+.front {
+  padding: 3%;
+}
+
+.container h1 {
+  font-family: "Miltonian";
+  font-size: 90px;
+}
+.container h2 {
+  font-size: 30pt;
+  font-family: "Miltonian",cursive;
+}
+
+.container h3{
+  font-family: "Miltonian Tattoo", sans-serif;
+  font-size: 16pt;
+}
+
+.container p{
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 12pt;
+}
+
+.container h4{
+  font-family: "Arvo", sans-serif;
+  font-size: 13pt;
+  line-height: 20px;
+}
+
+.footer {
+
+  border-top: 1px solid #eee;
+  text-align: center;
+}
+
+ .footer a{
+  color: #669999;
+}
+ .footer a:hover{
+  color: #99CCCC;
+  text-decoration: none;
+}
+
+
+ a{
+  color: #669999;
+}
+ a:hover{
+  color: #99CCCC;
+  text-decoration: none;
+}
+
+.address{
+  text-align: center;
+  position: bottom;
+  color: white;
+}
+
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  background-image: url(http://baileysrestaurants.com/range/files/2013/06/Burger-window.jpg);
+  background-position: center;
+  background-size: 250%;
+  background-repeat: none;
+  min-height: 425px;
+
+}
+
+.round{
+  margin-top: 30px;
+  width: 100%;
+  padding: 15%
+}
+
+.logo{
+  width: 100%;
+  opacity: .9;
+}
+
+.bannerType{
+  font-size: 10px;
+  padding: 10px;
+  font-family: 'Arvo', cursive;
+}
+
+.social{
+  color: #669999;
+  display: inline-block;
+}
+
+.social:hover{
+    color: #99CCCC;
+
+}
+
+
+
+/* Customize the nav-justified links to be fill the entire space of the .navbar */
+
+.nav-justified {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.nav-justified > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  font-family: "Arvo";
+  color: white; /* nav bar text color */
+  text-align: center;
+  background-color: #99CCCC; /* Old browsers */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#669999), to(#99CCCC));
+  background-image: -webkit-linear-gradient(top, #669999 0%, #99CCCC 100%);
+  background-image:      -o-linear-gradient(top, #669999 0%, #99CCCC 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(top), color-stop(0%, #669999), to(#99CCCC));
+  background-image:         linear-gradient(top, #669999 0%, #99CCCC 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#669999', endColorstr='#99CCCC',GradientType=0 ); /* IE6-9 */
+  background-repeat: repeat-x; /* Repeat the gradient */
+  border-bottom: 1px solid #669999;
+}
+.nav-justified > .active > a,
+.nav-justified > .active > a:hover,
+.nav-justified > .active > a:focus {
+  background-color: #ddd;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+          box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.nav-justified>li>a:hover{
+  color: #99CCCC
+
+
+}
+
+.nav-justified > li:first-child > a {
+  border-radius: 5px 5px 0 0;
+}
+.nav-justified > li:last-child > a {
+  border-bottom: 0;
+  border-radius: 0 0 5px 5px;
+}
+
+.nav-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .nav-justified {
+    max-height: 52px;
+  }
+  .nav-justified > li > a {
+    border-right: 1px solid #d5d5d5;
+    border-left: 1px solid #fff;
+  }
+  .nav-justified > li:first-child > a {
+    border-left: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  .nav-justified > li:last-child > a {
+    border-right: 0;
+    border-radius: 0 5px 5px 0;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

@@ -1,0 +1,8 @@
+.jumbotron.container{
+	background-image: url(images/bw.jpg);
+	text-align: center;
+}
+
+.thumbnail img{
+	width: 100%;
+}
